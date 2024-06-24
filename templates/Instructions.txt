@@ -1,0 +1,6 @@
+1) Create a Git Hub account 
+2) Create a Dockerhub and Download Docker Destop
+3) Configur your git environment and generate a key
+4) move to your git hub account and paste the key
+5) Create and name a Repo and clone it to your local Evironment
+

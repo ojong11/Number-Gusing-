@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Game{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1 class="text-center">Number Guessing Game</h1>
+        <p class="text-center">{{ feedback }}</p>
+        <form method="POST" action="/game">
+            <div class="form-group">
+                <label for="guess">Enter your guess:</label>
+                <input type="number" class="form-control" id="guess" name="guess" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Guess</button>
+        </form>
+        <div class="text-center mt-3">
+            <a href="/logout" class="btn btn-danger">Logout</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
