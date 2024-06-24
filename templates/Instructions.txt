@@ -3,4 +3,6 @@
 3) Configur your git environment and generate a key
 4) move to your git hub account and paste the key
 5) Create and name a Repo and clone it to your local Evironment
+6) or git add repo
+7) then push 
 
